@@ -6,5 +6,6 @@ def oxford_comma(array)
   array.each_with_index do |word, i|
     i != array.size - 1 ? formatted_array << "#{word}, " : formatted_array << "and #{word}"
   end
+  formatted_array.join('')
   binding.pry
 end
