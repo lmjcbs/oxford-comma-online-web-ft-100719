@@ -7,5 +7,4 @@ def oxford_comma(array)
     i != array.size - 1 ? formatted_array << "#{word}, " : formatted_array << "and #{word}"
   end
   formatted_array.join('')
-
 end
