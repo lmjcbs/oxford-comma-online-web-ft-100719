@@ -2,7 +2,7 @@ require 'pry'
 
 def oxford_comma(array)
   return array.join('') if array.size == 1
-  return array.join(' and ')
+  return array.join(' and ') if array.size == 2
   formatted_array = Array.new
   array.each_with_index do |word, i|
     i != array.size - 1 ? formatted_array << "#{word}, " : formatted_array << "and #{word}"
