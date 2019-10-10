@@ -6,6 +6,4 @@ def oxford_comma(array)
 
   end
   binding.pry
-  formatted_string = array.to_s
-  formatted_string
 end
